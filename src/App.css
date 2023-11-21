@@ -1,0 +1,33 @@
+.row{
+    --bs-gutter-x: 0 !important;
+}
+.sidebar{
+    height: 100vh;
+
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.sidebar li{
+    padding: 10px 5px;
+    text-align: center;
+}
+.sidebar li a{
+    text-decoration: none;
+    transition: 0.4s;
+}
+.logo-img{
+    width: 70px;
+    height: 70px;
+}
+/* .active{
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 12px;
+} */
